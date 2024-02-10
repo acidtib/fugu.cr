@@ -1,0 +1,22 @@
+name: fugu
+version: 0.1.0
+
+authors:
+  - acidtib <acidtib@protonmail.com>
+
+targets:
+  fugu:
+    main: src/fugu.cr
+
+crystal: '>= 1.11.2'
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+development_dependencies:
+  spec-kemal:
+    github: kemalcr/spec-kemal
+    branch: master
+    
+license: MIT
